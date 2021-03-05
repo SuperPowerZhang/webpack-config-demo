@@ -5,6 +5,8 @@ import {TsxDemo} from './tsx-demo.tsx'
 import '@/stylus-demo.styl'
 import vars from '@/stylus-vars.styl'
 import React from 'react'
+import {shared} from '@/shared.js'
+console.log(shared)
 console.log(React)
 
 console.log(vars)
