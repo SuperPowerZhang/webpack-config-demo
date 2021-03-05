@@ -4,6 +4,8 @@ import {x} from './ts-demo.ts'
 import {TsxDemo} from './tsx-demo.tsx'
 import '@/stylus-demo.styl'
 import vars from '@/stylus-vars.styl'
+import React from 'react'
+console.log(React)
 
 console.log(vars)
 const b = import('./b') // 动态引入，也按需加载
