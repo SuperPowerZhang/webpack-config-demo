@@ -32,6 +32,7 @@ module.exports = {
     filename: '[name].[contenthash].js'
   },
   optimization: {
+    moduleIds: 'deterministic',
     runtimeChunk: 'single',
     splitChunks: {
       cacheGroups: {
