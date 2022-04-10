@@ -1,3 +1,4 @@
+// eslint校验ts、tsx、jsx
 module.exports = {
   extends: ['react-app'],
   rules: {

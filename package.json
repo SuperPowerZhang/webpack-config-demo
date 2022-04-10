@@ -1,7 +1,7 @@
 {
   "name": "webpack-advanced-demo-01",
   "scripts": {
-    "build": "webpack"
+    "build": "rm -rf dist && webpack"
   },
   "version": "1.0.0",
   "main": "index.js",

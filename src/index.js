@@ -1,11 +1,11 @@
-import {a} from '@/a' // 直接引入
+import {a} from '@src/a' // 直接引入
 import {JsxDemo} from './jsx-demo.jsx'
 import {x} from './ts-demo.ts'
 import {TsxDemo} from './tsx-demo.tsx'
-import '@/stylus-demo.styl'
-import vars from '@/stylus-vars.styl'
+import '@src/stylus-demo.styl'
+import vars from '@src/stylus-vars.styl'
 import React from 'react'
-import {shared} from '@/shared.js'
+import {shared} from '@src/shared.js'
 console.log(shared)
 console.log(React)
 

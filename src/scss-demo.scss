@@ -1,5 +1,11 @@
+// scss单独引入可以这么写，自动全局每个文件都引入的话可以直接在webpack配置
+@import '~@src/scss-vars.scss';
+
 body {
   p {
     color: $color;
+  }
+  div{
+    background-color: $backgroundColor;
   }
 }
